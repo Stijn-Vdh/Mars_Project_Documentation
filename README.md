@@ -31,7 +31,7 @@ allow goods and people to travel more efficiently than ever.
 By creating a user friendly mobile focused **client** application that communicates through openAPI with
 our Java **server**. 
 
-![diagram](img/diagram%20mtts.png)]
+![diagram](img/diagram%20mtts.png)
 
 This client allows users to easily order pods for personal or package transportation. 
 
@@ -40,18 +40,10 @@ This client allows users to easily order pods for personal or package transporta
 Minimum requirements:
 
 * Java version 11 or higher.
-* Gradle:
+* Gradle
 
 IntelliJ has gradle integration. 
- 
-Windows: 
-```
-gradlew.bat run
-```
-Linux:
-```
-gradlew run
-```
+
  
 Quick setup:
 * Go to our server repository ([link](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server))
@@ -65,9 +57,19 @@ Or clone the repo using the cmdline:
 ```bash
 git clone https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server.git
 ```
-* Run the server through Gradle
+* Run the server through GUI:
 
 ![link](img/run%20server.png)
+
+Or run from the commandline:
+Windows: 
+```
+gradlew.bat run
+```
+Linux:
+```
+gradlew run
+```
 
 After running the server, a database script automatically creates the needed H2 database.
 The server should now be running and available for the client.
