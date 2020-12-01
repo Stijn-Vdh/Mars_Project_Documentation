@@ -42,8 +42,7 @@ Minimum requirements:
 * Java version 11 or higher.
 * Gradle:
 
-IntelliJ has gradle integration. If a project is setup without gradle please run the following from the
-command line.
+IntelliJ has gradle integration. 
  
 Windows: 
 ```
