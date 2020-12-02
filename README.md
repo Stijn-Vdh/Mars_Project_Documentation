@@ -28,16 +28,16 @@ allow goods and people to travel more efficiently than ever.
 
 ## How do we do it ?
 
-By creating a user friendly mobile focused **client** application that communicates through openAPI with
+By creating a user-friendly mobile focused **client** application that communicates through a REST API and sockets with
 our Java **server**. 
 
-![diagram](img/diagram%20mtts.png)
+![diagram](img/Diagram-MTTS.svg)
 
-This client allows users to easily order pods for personal or package transportation. 
+The client allows users to easily order pods for personal or package transportation. 
 
 ## Server
 
-Minimum requirements:
+### Minimum requirements:
 
 * Java version 11 or higher.
 * Gradle
@@ -45,39 +45,42 @@ Minimum requirements:
 IntelliJ has gradle integration. 
 
  
-Quick setup:
-* Go to our server repository ([link](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server))
+### Quick setup:
+* [Go to our server repository](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server)
 * Clone the repository
+* Run the server
 
-Clone the repo through gitlab: 
+Clone the repo through Gitlab: 
 
 ![link](img/clone%20repo.png)
 
-Or clone the repo using the cmdline:
-```bash
+Or clone the repo using the commandline:
+```shell
 git clone https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server.git
 ```
-* Run the server through GUI:
+* Run the server through the GUI:
 
 ![link](img/run%20server.png)
 
-Or run from the commandline:
+Or use the terminal:
+
+navigate to the root of the project and execute
+
 Windows: 
-```
+```shell
 gradlew.bat run
 ```
 Linux:
-```
+```shell
 gradlew run
 ```
 
-After running the server, a database script automatically creates the needed H2 database.
+The server automatically creates the H2 Database, so no further configuration is needed.
 The server should now be running and available for the client.
 
-Please refer to the server [readme](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server) file for more information. 
+### Please refer to the server [readme](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server) file for more information. 
 
 ## Client
 
+### [link to documentation](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client)
 
-
-[link to documentation](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client)
