@@ -31,7 +31,7 @@ allow goods and people to travel more efficiently than ever.
 By creating a user-friendly mobile focused **client** application that communicates through a REST API and sockets with
 our Java **server**. 
 
-![diagram](img/Diagram-MTTS.svg)
+![diagram](img/Diagram-MTTS.png)
 
 The client allows users to easily order pods for personal or package transportation. 
 
