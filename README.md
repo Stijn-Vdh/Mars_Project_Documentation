@@ -25,17 +25,10 @@ All other emergency services also benefit from this, increasing safety by a larg
 Through an easily accessible network of travel tubes we want to 
 allow goods and people to travel more efficiently than ever.
 
-
 ## How do we do it ?
 
 By creating a user-friendly mobile focused **client** application that communicates through a REST API and sockets with
 our Java **server**. 
-
-MTTS Client main screen             |  MTSS Client quick access
-:-------------------------:|:-------------------------:|
-![](img/mtts%20main%20screen.jpg)  |  ![](img/mtts%20quick%20access.jpg)
-
-![diagram](https://svgshare.com/i/S00.svg)
 
 The client allows users to easily order pods for personal or package transportation. 
 
@@ -52,7 +45,6 @@ The client allows users to easily order pods for personal or package transportat
 * Estimated time (travel time, arrival time, …)
 * Keep user, trip and financial data in DB
 * Add trips to favorites / keep travel history
-
 
 ## Server
 
@@ -101,6 +93,42 @@ The server should now be running and available for the client.
 
 ## Client
 
-### [link to documentation](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client)
+### Minimum requirements
+
+* #### Chrome or FireFox (or any other modern browser)
+* #### [Sass](https://sass-lang.com/)
+
+### Quick setup
+
+* Go to our [Client repo](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client)
+* Clone our repo
+* Install dependancies
+* Install Sass
+
+Clone the through gitlab:
+
+![link](img/clone%20repo.png)
+
+Or clone the repo using the commandline:
+```bash
+git clone https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client.git
+```
+Install dependencies:
+```bash
+npm install
+```
+Install sass:
+```bash
+npm install -g sass
+```
+Standard user account:
+```
+Login: test
+Password: test
+```
+
+### Please refer to the client [readme](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client) for more information.
+
+---
 
 Written by Daniel Vlaeminck and Maarten Vercruysse
