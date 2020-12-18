@@ -30,28 +30,75 @@ allow goods and people to travel more efficiently than ever.
 By creating a user-friendly mobile focused **client** application that communicates through a REST API and sockets with
 our Java **server**. 
 
-The client allows users to easily order pods for personal or package transportation. 
+The client allows users to easily order pods for personal or package transportation.
+ 
+### Implemented technical requirements
+The following are our implemented technical requirements.
+
+#### Self-study topics
+
+* Push notifications
+* CSS animations
+* SASS framework
+* Leaflet.js framework
+
+#### Class-taught topics
+
+* Real-time communication
+* A mobile client written in HTML/CSS/JavaScript
+* Server written in Java using the VertX library
+* Server side unit testing
+* H2 database to collect user data
+* REST API according to OpenAPI standards
 
 ### POC features:
 
-* Order pods for Martian transport
-* Order pods for package transport
-* Visually display pod route
-* A fully animated UI
-* An interactive map with all available endpoints
-* Notifications
-* Location sharing to friends
-* Friend list
-* Estimated time (travel time, arrival time, …)
-* Keep user, trip and financial data in DB
-* Add trips to favorites / keep travel history
+* **Order pods for Martian transport**
+* **Order pods for package transport**
+* **Visually display pod route**
+* **A fully animated UI**
+* **An interactive map with all available endpoints**
+* **Notifications**
+* **Location sharing to friends**
+* **Friend list**
+* **Estimated travel time**
+* **Store user, travel and financial data in DB**
+* **Switch between favorites and travel history list**
+
+### Pride through greatness
+
+* **Leaflet.js**  
+We integrated the **leaflet.js** framework to implement a fully functional interactive map.  
+Using this map, we simulate endpoint selection and visualise travel.
+   
+* **Application design**
+Our client has a sleek and clean design, pampering our users' eyes with its black & red core visual design.
+
+* **Fully working back-end**  
+Fully operational server side functionality.
+
+* **Detailed and extensive business case**  
+We put a lot of time and research into our business case.  
+We hope readers will enjoy reading this document, as we put our hearts and souls into it.   
+  
+* **Full server wide testing**
+We ended up testing our server extensively.
+Database, requests and exceptions are tested thoroughly.
+
+### Bonus points
+
+* **User testing**  
+We did some extensive user testing, we included a detailed report in the appendix section of our business case.
+
+* **Self study topics**  
+We implemented one level 1 and two level 2 self-study topics. 
 
 ## Server
 
 ### Minimum requirements:
 
-* #### Java version 11 or higher
-* #### Gradle
+* **Java version 11 or higher**
+* **Gradle**
 
 IntelliJ has gradle integration. 
 
@@ -95,8 +142,8 @@ The server should now be running and available for the client.
 
 ### Minimum requirements
 
-* #### Chrome or FireFox (or any other modern browser)
-* #### [Sass](https://sass-lang.com/)
+* **Chrome or FireFox (or any other modern browser)**
+* **[Sass](https://sass-lang.com/)**
 
 ### Quick setup
 
