@@ -194,4 +194,4 @@ Password: test
 
 ---
 
-Written by Daniel Vlaeminck and Maarten Vercruysse
+*Written by Daniel Vlaeminck and Maarten Vercruysse*
