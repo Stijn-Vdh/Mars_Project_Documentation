@@ -71,7 +71,7 @@ The following are our implemented technical requirements.
 We integrated the **leaflet.js** framework to implement a fully functional interactive map.  
 Using this map, we simulate endpoint selection and visualise travel.
    
-* **Application design**
+* **Application design**  
 Our client has a sleek and clean design, pampering our users' eyes with its black & red core visual design.
 
 * **Fully working back-end**  
@@ -81,7 +81,7 @@ Fully operational server side functionality.
 We put a lot of time and research into our business case.  
 We hope readers will enjoy reading this document, as we put our hearts and souls into it.   
   
-* **Full server wide testing**
+* **Full server wide testing**  
 We ended up testing our server extensively.
 Database, requests and exceptions are tested thoroughly.
 
