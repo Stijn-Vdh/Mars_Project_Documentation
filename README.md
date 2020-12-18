@@ -2,35 +2,49 @@
 
 # Martian Travel Tube System
 
+## Who are we?
+
+Group 15 consists of: 
+
+* Daniel Vlaeminck  
+* Liam Deferm  
+* Maarten Vercruysse  
+* Stijn Van der Herten
+
+
 ## What are we ?
 
 ### Project Concept:
 
-We provide a fast, safe, reliable, fun and fully automatic travel system for dome inhabitants and companies. 
-By offering the fastest way of transportation, it grants people less travel time, which translates to more sleep, freetime and worry free lives. 
-For companies we offer a separate tubular network with larger pods to guarantee fast deliveries on large shipments. 
+We provide a **fast, safe, reliable, fun and fully automatic travel system** for dome inhabitants and companies. 
+By offering the fastest way of transportation, granting people **less travel time**, which translates to **more sleep, freetime and worry free lives**. 
+For companies we offer a **separate tubular network** with larger pods to guarantee fast deliveries on large shipments. 
 
 ### Mission:
-Our goal is to realise the fastest lead times possible:
+Our goal is to realise the **fastest lead times** possible:
 
-By lead time we are referring to the speed at which goods can be delivered to their destination after placing an order. 
+By lead time we are referring to **the speed at which goods can be delivered to their destination** after placing an order. 
 The speed at which a good is ordered and the delivery of it is, through our innovative system, unprecedented.
 
-We are also referring to the efficiency of transporting humans to their desired / required location. 
+We are also referring to the **efficiency of transporting humans to their desired / required location**. 
 Decreasing travel time enriches human lives. Response time to emergency situations is drastically lowered. 
 This allows our own emergency task force to respond quickly to infrastructural emergencies. 
 All other emergency services also benefit from this, increasing safety by a large margin.
 
 ### Vision:
-Through an easily accessible network of travel tubes we want to 
-allow goods and people to travel more efficiently than ever.
+***Through an easily accessible network of travel tubes we want to 
+allow goods and people to travel more efficiently than ever.***
 
 ## How do we do it ?
 
-By creating a user-friendly mobile focused **client** application that communicates through a REST API and sockets with
-our Java **server**. 
+By creating a user-friendly mobile focused [**client**](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client) application that communicates through a REST API and sockets with
+our Java [**server**](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server). 
 
 The client allows users to easily order pods for personal or package transportation.
+
+MTTS Client main screen             |  MTTS Client quick access
+:-------------------------:|:-------------------------:|
+![](img/mtts%20main%20screen.jpg)  |  ![](img/mtts%20quick%20access.jpg)
  
 ### Implemented technical requirements
 The following are our implemented technical requirements.
@@ -68,7 +82,7 @@ The following are our implemented technical requirements.
 ### Pride through greatness
 
 * **Leaflet.js**  
-We integrated the **leaflet.js** framework to implement a fully functional interactive map.  
+We integrated the [**leaflet.js**](https://leafletjs.com/) framework to implement a fully functional interactive map.  
 Using this map, we simulate endpoint selection and visualise travel.
    
 * **Application design**  
@@ -78,8 +92,8 @@ Our client has a sleek and clean design, pampering our users' eyes with its blac
 Fully operational server side functionality.
 
 * **Detailed and extensive business case**  
-We put a lot of time and research into our business case.  
-We hope readers will enjoy reading this document, as we put our hearts and souls into it.   
+We put a lot of time and research into our [**business case**](https://docs.google.com/document/d/1QwD8wydDN4ZRtoG5qReoxWugFHmOW6QBVUOFlBgrpQs).  
+We hope readers will enjoy the document, as we put our hearts and souls into it.   
   
 * **Full server wide testing**  
 We ended up testing our server extensively.
@@ -88,7 +102,7 @@ Database, requests and exceptions are tested thoroughly.
 ### Bonus points
 
 * **User testing**  
-We did some extensive user testing, we included a detailed report in the appendix section of our business case.
+We did extensive user testing. A detailed report is included in the appendix section of our business case.
 
 * **Self study topics**  
 We implemented one level 1 and two level 2 self-study topics. 
@@ -104,7 +118,7 @@ IntelliJ has gradle integration.
 
  
 ### Quick setup:
-* [Go to our server repository](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server)
+* Go to our [**server repo**](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server)
 * Clone the repository
 * Run the server
 
@@ -116,13 +130,15 @@ Or clone the repo using the commandline:
 ```shell
 git clone https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/server.git
 ```
-* Run the server through the GUI:
 
-![link](img/run%20server.png)
+Run the server in the IDE:
 
-Or use the terminal:
+||
+|---|
+|![link](img/run%20server.png)|
+|*IntelliJ IDE with integraded gradle*|
 
-Navigate to the root of the project and execute
+Or use the terminal (navigate to the root of the project and execute):
 
 Windows: 
 ```shell
@@ -147,9 +163,9 @@ The server should now be running and available for the client.
 
 ### Quick setup
 
-* Go to our [Client repo](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client)
+* Go to our [**client repo**](https://git.ti.howest.be/TI/2020-2021/s3/project-ii/projects/groep-15/client)
 * Clone our repo
-* Install dependancies
+* Install dependencies
 * Install Sass
 
 Clone the through gitlab:
