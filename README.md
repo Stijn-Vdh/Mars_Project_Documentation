@@ -55,6 +55,7 @@ The following are our implemented technical requirements.
 * CSS animations
 * SASS framework
 * Leaflet.js framework
+* Service workers
 
 #### Class-taught topics
 
